@@ -3,8 +3,8 @@
         <style>
         
             .header {
-                background-color: fuchsia;
-                font-size: 30px;
+                background-color: navy;
+                font-size: 50px;
                 align-items: center;
                 height: 100px;
                 width: 100%;
@@ -12,16 +12,9 @@
                 top: 0px;
                 display: flex;
                 justify-content: center;
+                color: white;
             }
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-            }
-
-            li {
-                display: inline;
-            }
+             
             .container {
       display: flex;
       margin-top: 100px;
@@ -31,18 +24,34 @@
 
     }
    .sidebar {
-      background-color: gray;
-      font-size: 50px;
+      background-color: pink;
+      font-size: 20px;
+      color: black;
       width: 200px;
       padding: 0px;
     }
     .content {
-      background-color: lightcoral;
-      font-size: 40px;
-      width: 100px;
+      background-color: beige;
+      font-size: 25px;
+      width: 100%;
       padding: 20px;
       flex: 1;
     }
+        ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            li {
+                display: inline;
+            }
+
+            ol {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
 
             .footer {
               background-color:#333 ;
@@ -59,31 +68,34 @@
     </head>
     <body>
         <div>
-        <div class="header">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="news.asp">News</a></li>
-                <li><a href="contact.asp">Contact</a></li>
-                <li><a href="about.asp">About</a></li>
+        <div class="header">Malla Reddy University</div>
+        <div class="container">
+        <div class="sidebar">
+             <ul>
+                <ol><a href="Student Form.asp">Student Form</a></ol>
+                <ol><a href="Registration form.asp">RegistrationForm</a></ol>
+                <ol><a href="fee payment.asp">Fee Payment</a></ol>
+                <ol><a href="transport.asp">Transport</a></ol>
             </ul>
         </div>
-        <div class="container"> 
-        <div class="sidebar">Divya</div>
+        
+        
+
         <div class="content">
-        <p> 
-            Web development refers to the process of creating, building, and maintaining websites and web applications that are accessible via the internet. It encompasses a wide range of tasks, from designing the user interface to programming the underlying functionality and managing the server-side operations. Essentially, it's the work involved in bringing a website or web application to life and ensuring it functions smoothly for users. 
-Here's a more detailed breakdown:
-Key Aspects of Web Development:
-Web Design:
-This involves the visual layout, user interface (UI), and overall user experience (UX) of a website. 
-Front-end Development:
-Focuses on the client-side of a website – the part that users directly interact with, including the HTML, CSS, and JavaScript code. 
-Back-end Development:
-Deals with the server-side logic, databases, and server infrastructure that power the website. 
-        </p>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about us.asp">News</a></li>
+                <li><a href="academics.asp">Academics</a></li>
+                <li><a href="Schools.asp">Schools</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="academics.asp">About</a></li>
+                <li><a href="placements.asp">placements</a></li>
+            </ul>
+            
+        <img src="university.jpg" alt="unilogo" width="100%"
         </div>
     </div>
-        
+</div>
   <div class="footer">FOOTER</div>
 </body>
 </html>
